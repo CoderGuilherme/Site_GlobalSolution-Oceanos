@@ -15,9 +15,18 @@
     background-position: center;
 }
 
-.container_contactUs h1{
-    font-size: 40px;
+.container_contactUs h2{
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: var(--Font-family-primary);
 }
+
+.container_contactUs p{
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-family: var(--Font-family-primary);
+}
+
 
 .infos{
     width: 50%;
