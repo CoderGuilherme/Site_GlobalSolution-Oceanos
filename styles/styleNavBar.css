@@ -1,0 +1,48 @@
+.navegacao {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    padding: 10px;
+    right: 40px;
+    left: 40px;
+    z-index: 99999;
+}
+
+.navegacao--menu {
+    display: flex;
+    align-items: center;
+    list-style-type: none
+}
+
+.navegacao--menu a {
+    margin-left: 10px;
+    padding: 5px 7px 5px 7px;
+    color: white;
+    font-weight: bold;
+    font-family: var(--Font-family-primary);
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.navegacao--menu a:hover {
+    color: #3ABEF9;
+}
+
+.navegacao--menu a.active {
+    color: #3ABEF9;
+}
+
+/* Add a class to highlight active section */
+.active-section {
+    background-color: #f0f0f0;
+}
+
+/* Add smooth scrolling behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Style for the sections */
+section {
+    height: 100vh; /* Adjust as needed */
+}
