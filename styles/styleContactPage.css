@@ -1,0 +1,93 @@
+
+.container_contactUs{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    background-image: url("/image/bg_pageProblema.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container_contactUs h1{
+    font-size: 40px;
+}
+
+.infos{
+    width: 50%;
+    height: 420px;
+    background: url('/image/sea.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffff;
+    padding: 20px;
+    border-radius: 30px 0 30px 0;
+    margin-right: 10px ;
+    font-family: var(--Font-family-primary)
+}
+
+.infos p {
+    margin-top: 20px;
+    font-size: 18px;
+    margin-left: 30px ;
+}
+
+.infos a {
+    text-decoration: none;
+    color: #ffff;
+}
+
+.infos a:hover {
+    text-decoration: underline;
+}
+
+.infos i{
+    margin-right: 30px;
+}
+
+
+.fomulario{
+    padding: 45px;
+    width: 50%;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border-bottom: 2px solid rgba(58, 190, 249, 0.543);
+    font-size: 16px;
+    padding : 15px;
+    color: white;
+}
+
+
+
+.container .btn{
+    font-family: var(--Font-family-primary);
+    width:100%;
+    height: 50px;
+    background: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 2px 5px #3ABEF9;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.container .btn:hover{
+    background-color: #3ABEF9;
+    color: #ffffff;
+}
