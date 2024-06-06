@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     background: black; 
-    background-image: url("/image/bg_pagetecnologia1.png");
+    background-image: url("/image/Background_Of.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -25,10 +25,9 @@
 
 .tecnologia_content h3{
     color: white;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     font-family: var(--Font-family-primary);
-    text-align: center;
 }
 
 .tecnologia_content strong{

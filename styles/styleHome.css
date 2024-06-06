@@ -72,7 +72,8 @@ html{
     color: white;
 }
 .home_content p {
-    font-size: 2rem;
+    font-size: 3rem;
+    font-weight: 500;
     font-family: var(--Font-family-primary);
     color: white;
 }

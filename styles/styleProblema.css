@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     background: black;
-    background-image: url("/image/bg_pageProblema.png");
+    background-image: url("/image/Background_Of.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,17 +24,17 @@
 }
 
 
-.container_problema h1{
+.container_problema h2{
     color: white;
-    font-size: 4rem;
+    font-size: 2rem;
     font-family: var(--Font-family-primary);
     color: white;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
 .container_problema p{
     color: white;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 500;
     font-family: var(--Font-family-primary);
 }
