@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     background: black;
-    background-image: url("/image/background_section.jpg");
+    background-image: url("../image/background_section.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

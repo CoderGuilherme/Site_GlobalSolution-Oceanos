@@ -9,7 +9,7 @@
     justify-content: space-between;
     align-items: center;
     background: black;
-    background-image: url("/image/background_section.jpg");
+    background-image: url("../image/background_section.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -31,7 +31,7 @@
 .infos{
     width: 50%;
     height: 420px;
-    background: url('image/sea.jpg') no-repeat;
+    background: url('../image/sea.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     color: #ffff;
