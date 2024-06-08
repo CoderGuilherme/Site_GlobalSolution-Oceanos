@@ -55,9 +55,10 @@ html{
     justify-content: center;
     align-items: center;
 }
+
 .titulo_animed h1{
     position: absolute;
-    font-size: 17rem;
+    font-size: 15rem;
     font-family: var(--Font-family-primary);
     transform: translate(-20,40%);
 }
